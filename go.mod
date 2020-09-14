@@ -1,4 +1,4 @@
-module github.com/OverlayNetwork/onet-transport-tcp-go
+module github.com/overlaynetwork/onet-transport-tcp-go
 
 go 1.14
 
