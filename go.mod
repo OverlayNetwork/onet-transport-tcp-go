@@ -8,4 +8,4 @@ require (
 	github.com/stretchr/testify v1.6.1
 )
 
-// replace github.com/overlaynetwork/onet-go v0.0.2 => ../onet-go
+replace github.com/overlaynetwork/onet-go => ../onet-go

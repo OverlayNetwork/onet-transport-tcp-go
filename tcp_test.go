@@ -24,7 +24,9 @@ func TestConn(t *testing.T) {
 		require.NoError(t, err)
 	}()
 
-	_, err = listener.Accept()
+	conn, err := listener.Accept()
 
 	require.NoError(t, err)
+
+	println(conn.LocalAddr().String(), conn.RemoteAddr().String())
 }
